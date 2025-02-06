@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN UP</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./media-query/marlow-house.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://www.tiekdesigngroup.com/" target="_blank">The Marlow House</a>
+        <a href="https://www.tiekdesigngroup.com/english-cottage-1" target="_blank">Architecture</a>
+        <a href="https://www.tiekdesigngroup.com/portfolio" target="_blank">Interior Design</a>
+        <a href="index.html" target="_blank">Trip</a>
+      </nav>
+    </header>
+    <div class="hero-wrapper">
+      <img src="./assets/stievtiek.jpg" alt="picture">
+      <div class="hero-title">YOU WON A FREE TRIP</div>
+    </div>
+    
+    <form>
+      <div class="form-container">
+        <div class="first-name-div">
+          <label for="First Name">First Name</label>
+          <input
+            type="text"
+            id="First Name"
+            name="First Name"
+            placeholder="First Name"
+            required
+          />
+        </div>
+    
+        <div>
+          <label for="Last Name">Last Name</label>
+          <input
+            type="text"
+            id="Last Name"
+            name="Last Name"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+    
+        <div>
+          <label for="Email">Email</label>
+          <input
+            type="text"
+            id="Email"
+            name="Email"
+            placeholder="Email"
+            required
+          />
+        </div>
+    
+        <div>
+          <label for="Phone Number">Phone Number</label>
+          <input
+            type="text"
+            id="Phone Number"
+            name="Phone Number"
+            placeholder="Phone Number"
+            required
+          />
+        </div>
+    
+        <div>
+          <label for="Start Date">Start Date</label>
+          <input
+            type="text"
+            id="Start Date"
+            name="Start Date"
+            placeholder="date/month/year"
+            required
+          />
+        </div>
+    
+        <div>
+          <label for="End Date">End Date</label>
+          <input
+            type="text"
+            id="End Date"
+            name="End Date"
+            placeholder="date/month/year"
+            required
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="car-rental-field">
+        <p>
+          Car Rental <br />
+          Select one
+        </p>
+        <input name="yes" id="yes" type="radio" value="yes" />
+        <label for="yes">Yes</label>
+        <input name="no" id="no" type="radio" value="no" />
+        <label for="no">No</label>
+      </div>
+
+
+      <hr />
+
+      <div>
+        <p>
+          Basic, Premium, Platinum package <br />Select two (incase one sells
+          out)
+        </p>
+          <input name="none" id="none" type="checkbox" value="none" />
+          <label for="none">None</label>
+          <input name="Basic" id="Basic" type="checkbox" value="Basic" />
+          <label for="Basic">Basic</label>
+          <input name="Premium" id="Premium" type="checkbox" value="Premium" />
+          <label for="Premium">Premium</label>
+          <input name="Platinum" id="Platinum" type="checkbox" value="Platinum" />
+          <label for="Platinum">Platinum</label>
+        </div>
+
+        <div>
+          <ul>
+            <li><strong>Basic Package additional $150 per person</strong></li>
+            <ul>
+              <li>1 massage</li>
+              <li>5 Soda's</li>
+              <li>5 Ice Cream in a cup</li>
+            </ul>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>
+              <strong style="color: red"
+                >Premium Package additional $500 per person</strong
+              >
+            </li>
+            <ul>
+              <li>5 massages</li>
+              <li>Soda & slushies</li>
+              <li>Ice Cream w/ sugar cone</li>
+            </ul>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>
+              <strong style="color: gold"
+                >Platinum Package additional $750 per person</strong
+              >
+            </li>
+            <ul>
+              <li>All you can eat restaurants</li>
+              <li>Rootbeer floats</li>
+              <li>All events</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+      <p>Airline</p>
+
+      <div class="airline-field">
+        <input name="delta" id="delta" type="radio" value="delta" />
+        <label for="delta">Delta</label>
+        <input
+          name="british airways"
+          id="british airways"
+          type="radio"
+          value="british airways"
+        />
+        <label for="british airways">British Airways</label>
+        <input name="lufthansa" id="lufthansa" type="radio" value="lufthansa" />
+        <label for="lufthansa">Lufthansa</label>
+      </div>
+
+      <hr />
+
+      <p>Seat selection</p>
+
+      <div class="airline-field">
+        <select name="airline-field">
+          <option value="">Choose seat option</option>
+          <option value="economy">Economy</option>
+          <option value="business">Business</option>
+          <option value="first-class">First class</option>
+        </select>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <hr />
+
+      <div class="text-box-field">
+        <label for="text-box-field">Please tell us about yourself:</label>
+        <textarea name="info" id="info" rows="10">Type here...</textarea>
+      </div>
+
+      <br>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <footer>
+      <p>2025 The Marlow House. All rights reserved.</p>
+      <p>Contact us:</p>
+      <ul>
+        <li><a href="#">801-352-7071</a></li>
+        <li><a href="#">1153 Maple Street Mapleton Utah 84664</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+@media (max-width: 1440px) {
+  .hero-wrapper > .hero-title {
+    top: 167px;
+    right: 354px;
+    font-size: 20px;
+  }
+}
+
+/* @media (max-width: 900px) {
+  .hero-wrapper > .hero-title {
+    top: 134px;
+    right: 200px;
+    font-size: 20px;
+  }
+} */
+
+@media (max-width: 425px) {
+  .hero-wrapper > .hero-title {
+    top: 170px;
+    right: 300px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1440px) {
+  form {
+    padding: 30px 300px 30px 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  form {
+    padding: 30px 300px 30px 300px;
+  }
+}
+
+@media (max-width: 725px) {
+  form {
+    text-align: left;
+    padding-left: 0px;
+  }
+}
