@@ -1,23 +1,30 @@
-@media (max-width: 425px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-wrapper > img {
+    width: 100%;
+    height: auto;
+  }
+
   .hero-wrapper > .hero-title {
-    top: 170px;
-    right: 300px;
-    font-size: 15px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
   }
 
   form {
-    padding: 30px 300px 30px 300px;
-  }
-}
-
-@media (max-width: 1440px) {
-  .hero-wrapper > .hero-title {
-    top: 167px;
-    right: 354px;
-    font-size: 20px;
-  }
-
-  form {
-    padding: 30px 300px 30px 300px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-color: #e78e3d;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
   }
 }
